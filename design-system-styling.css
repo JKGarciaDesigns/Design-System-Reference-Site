@@ -1,0 +1,123 @@
+* {
+    font-family: 'Arsenal SC', sans-serif;
+}
+
+body {
+    margin-left: 104px;
+    margin-right: 104px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    font-family: 'Space Mono', serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.container {
+    padding: 24px 16px;
+    border: 2px dashed gray;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.colorspecs {
+    display: inline-block;
+    width: 28%;
+    min-height: 240px;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 16px;
+    gap: 16px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.25);
+    margin: 8px auto;
+}
+
+.color-label,
+.color-hex {
+    font-size: 1em;
+    font-weight: 500;
+    color: #313131;
+}
+
+.color-panel1 {
+    height: 140px;
+    border-radius: 8px;
+    background-color: #24423E;
+    align-self: stretch;
+}
+
+.color-panel2 {
+    height: 140px;
+    border-radius: 8px;
+    background-color: #032621;
+    align-self: stretch;
+}
+
+.color-panel3 {
+    height: 140px;
+    border-radius: 8px;
+    background-color: #3E746D;
+    align-self: stretch;
+}
+
+.color-panel4 {
+    height: 140px;
+    border-radius: 8px;
+    background-color: #F0F2F2;
+    align-self: stretch;
+}
+
+.font-header {
+    text-decoration: underline;
+}
+
+#spacemono-font h3 {
+    font-family: "Space Mono", serif;
+}
+
+#spacemono-font p {
+    font-family: "Space Mono", serif;
+}
+
+#aresenal-font h3 {
+    font-family: "Arsenal SC", sans-serif;
+}
+
+#aresenal-font p {
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.font-panel {
+    margin-bottom: 24px;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.italic-font {
+    font-style: italic;
+}
+
+#h1-style h1 {
+    font-family: 'Space Mono', serif;
+}
